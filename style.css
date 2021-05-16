@@ -9,22 +9,23 @@ header
     margin-left: 40%;
     margin-right: 40%;
 }
-/* .concepts_container
+body
 {
-    margin-left: auto;
-    margin-right: auto;
-} */
+ width: 100%;
+ height: auto;
+ background-color: seashell;
+}
 
 table{
-    border-collapse: collapse;
-    border: 2px solid gray;
-    width: 80%;
+    /* border-collapse: inherit; */
+    border: 2px solid black;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
 tr,td
 {
-	border-bottom: 2px solid lightgray;
+	border: 2px solid lightgrey;
 	font-size: x-large;
-	text-align: left;
+	text-align: center;
 }
